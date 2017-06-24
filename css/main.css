@@ -21,7 +21,7 @@ header > h4 {
 div {
     text-align: center;
     color: black;
-    border-style: solid;
+    border-style: none;
 }
 
 .container {
@@ -32,6 +32,12 @@ body {
     background-color:  gray;
     font-family: 'Open Sans', sans-serif;
 }
+
+img {
+    max-width: 25%;
+    height: auto;
+}
+    
 
 #h4-white {
     color: white;
@@ -51,4 +57,12 @@ p {
 #ul {
     text-align: left;
     color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    padding-bottom: 20px;
 }
